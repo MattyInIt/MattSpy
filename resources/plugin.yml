@@ -8,9 +8,15 @@ commands:
   spec:
     description: Spectate a player
     usage: /spec <player>
+    permission: mattspy.command.spec
+    permission-message: You do not have permission to use this command.
   invsee:
     description: View and interact with another player's inventory
     usage: /invsee <player>
+    permission: mattspy.command.invsee
+    permission-message: You do not have permission to use this command.
   nick:
     description: Change your nickname
     usage: /nick <new_nickname>
+    permission: mattspy.command.nick
+    permission-message: You do not have permission to use this command.
