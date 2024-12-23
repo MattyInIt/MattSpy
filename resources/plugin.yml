@@ -1,0 +1,16 @@
+name: MattSpy
+version: '1.0-SNAPSHOT'
+main: org.mattplugins.mattSpy.MattSpy
+api-version: '1.20'
+authors: [ matt ]
+website: https://www.spigotmc.org/members/mattplugins.2188339/
+commands:
+  spec:
+    description: Spectate a player
+    usage: /spec <player>
+  invsee:
+    description: View and interact with another player's inventory
+    usage: /invsee <player>
+  nick:
+    description: Change your nickname
+    usage: /nick <new_nickname>
